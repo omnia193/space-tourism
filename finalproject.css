@@ -1,0 +1,1378 @@
+@font-face {
+  font-family: Barlow;
+  src: url(Barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url(Barlow/Barlow-Medium.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(Rubik/Rubik-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family:Rubik;
+  src: url(Rubik/Rubik-VariableFont_wght.ttf)
+}
+
+
+@font-face {
+  font-family: static;
+  src: url(Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+  font-family:static;
+  src: url(Rubik/static/Rubik-Regular.ttf)
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Barlow;
+  font-family: Rubik;
+  font-family:static;
+  background-image: url(home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#maindiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navdiv {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+#icondiv {
+  font-family: Barlow;
+  font-weight: normal;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 3%;
+}
+
+#iconimg {
+  width: 48px;
+  height: 48px;
+}
+
+#icondiv > hr {
+  width: 80%;
+  height: 0;
+  position: relative;
+  left: 15%;
+  border: 0.1%;
+  border-color: rgb(153, 158, 158);
+}
+
+#mainbtns {
+  font-family: Barlow;
+  flex-grow: 1;
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3%;
+}
+
+.mainbtns {
+  border: none;
+  color: rgba(208, 214, 249, 1);
+  cursor: pointer;
+  background: none;
+}
+#burgericon{
+  cursor: pointer;
+  display:none ;
+}
+#burgericon.clicked {
+  border: 5px solid red;
+}
+
+
+#downdiv {
+  width: 70%;
+  height: 65%;
+display: flex;
+  flex-direction: row;
+
+  align-items:flex-end;
+  backdrop-filter: blur(4px);
+ 
+}
+
+
+
+#homelabs {
+  width: 70%;
+height: 100%;
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+row-gap: 5%;
+
+justify-content: flex-end;
+box-sizing: border-box;
+padding: 2%;
+  font-family: Barlow;
+    }
+
+#explor{
+  width: 30%;
+  height: 100%;
+ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 2%;
+
+}
+#explorbutton {
+  width: 80%;
+  height: 50%;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  font-family: Barlow;
+
+
+
+}
+.plabls {
+  color: rgba(208, 214, 249, 1);
+ 
+}
+
+#spacelab {
+  font-family: Barlow;
+  font-size: 70px;
+  color: white;
+ 
+}
+
+
+
+#destination {
+  width: 70%;
+  height: 100%;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#updivofmoon {
+  width: 100%;
+  height: 9%;
+    display: flex;
+  column-gap: 2%;
+  letter-spacing: 2px;
+}
+
+.updiv {
+  width: 100%;
+  height: 12%;
+
+  display: flex;
+  align-items: center;
+  column-gap: 1.5%;
+  letter-spacing: 2px;
+}
+.updivlab1{
+  color: grey;
+} 
+.updivlab2{
+   color: white;
+} 
+
+
+
+#downdivofmoon {
+  width: 100%;
+  height: 85%;
+  display: flex;
+}
+
+#moonpic {
+  width: 50%;
+  height: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moonimg {
+  width: 70%;
+  height: 70%;
+  display: none;
+}
+#marsimg{
+  display: none;
+}
+
+.destinationimges {
+  width: 70%;
+  height: 70%;
+}
+
+#mooninfo{
+  width: 50%;
+  height: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#butnsbar {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+ 
+  column-gap: 3%;
+}
+
+.butnsbar {
+
+  color: rgba(208, 214, 249, 1);
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+#changablediv{
+  
+}
+.changablediv{
+}
+
+.infop {
+    display: flex;
+    flex-direction: column;
+      width: 100%;
+  height: 70%;
+
+
+}
+
+#infop1{
+  position: relative;
+  top: 20%;
+  display: none;
+}
+#infop4{
+  display: none;
+}
+
+ .h1 {
+  color: white;
+  font-size: 50px;
+
+ 
+}
+
+.pcolor{
+  color: rgba(208, 214, 249, 1);
+  font-size: 19px;
+}
+
+#hr2 {
+  width: 100%;
+  height: .1px;
+  border-color: gray;
+
+ 
+}
+
+#date {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.datediv {
+display: flex;
+  width: 40%;
+  height: 100%;
+  
+}
+
+#datedivofeuropa1{
+  display: none;
+
+}
+#datedivofeuropa2{
+  display: none;
+}
+
+
+
+.bluelab {
+  color: rgba(208, 214, 249, 1);
+  font-size: 13px;
+}
+
+.numwhitelab {
+  color: white;
+  font-size: 20px;
+}
+
+#crew {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+   justify-content: center;
+   align-items: center;
+    display: none;
+ 
+  }
+  #crewupdiv{
+    display: flex;
+    position: relative;
+    left: 6.4%;
+    
+   
+  }
+  #downdivofcrew{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
+#changabledivofcrew{
+    width: 55%;
+    height: 100%;
+      display: flex;
+    flex-direction: column;
+justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+.changablediv2{
+  width: 45%;
+  height: 80%;
+ 
+  display: flex;
+  flex-direction: column;
+justify-content: space-around;
+  box-sizing: border-box;
+ 
+
+}
+#infopofcommander{
+  display: none;
+}
+#infopofmark{
+ display:none;
+
+}
+#infopofvictor{
+  display: none;
+}
+#infopofanousheh{
+  display: none;
+}
+.crewpic{
+    width: 55%;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crewimges{
+    width: 80%;
+    height: 100%;
+}
+#commanderimg{
+  display: none;
+}
+
+#markimg{
+background-image: url(destination/background-destination-desktop.jpg);
+  display: none;
+}
+#victorimg{
+    display: none;
+
+}
+#anoushehimg{
+  display: none;
+}
+
+#circlarbtns{
+display: flex;
+column-gap: 17%;
+width: 20%;
+height: 2%;
+}
+.circularbtns{
+  width: 9.5%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(202, 198, 198);
+
+}
+
+#technology{  
+    display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+ justify-content: center;
+ align-items: center;
+ display: none;
+
+}
+#downdivoftechnology{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+
+
+ 
+
+}
+#infodivoftechnology{
+  width: 100%;
+  height: 100%;
+    display: flex;
+  flex-direction: row;
+
+  box-sizing: border-box;
+
+
+
+}
+#btnsoftechnology{
+  width: 15%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.btnsoftechnology{
+width: 50%;
+height: 20%;
+border-radius: 50%;
+border-color:rgb(202, 198, 198); 
+background: none;
+color: white;
+cursor: pointer;
+
+
+
+}
+
+.changabledivoftechnology{
+  width: 85%;
+  height: 100%;
+ 
+}
+
+
+
+.technologyimges{
+  width: 85%;
+  height: 95%;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  position: relative;
+  left: 8%;
+  bottom: 8%;
+
+}
+#technologypic{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  
+}
+
+
+
+#spaceportdiv{
+  display: none;
+}
+#spaceportimg{
+  display: none;
+}
+#capsulediv{
+  display: none;
+}
+#capsuleimg{
+  display: none;
+
+}
+
+@media only screen and (max-width: 880px){
+  body{
+    background-image: url(home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #mainbtns{
+  
+    align-items: center;
+justify-content: end;
+
+row-gap: 2%;
+
+  } 
+  .mainbtns{
+   flex-direction: column;
+  }
+  #icondiv > hr {
+    display: none;
+  }
+#burgericon{
+  display: block;
+ position: relative;
+ right: 5px;
+  
+}
+#navdiv {
+  height: 10%;
+}
+
+#icondiv{
+  justify-content: space-between;
+
+}
+#downdiv{
+  flex-direction:column;
+  justify-content: space-around;
+align-items: center;
+ width: 80%;
+  height: 80%;
+
+  position: relative;
+  left: 1%;
+ 
+}
+
+#homelabs {
+  width: 100%;
+height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+text-align: left;
+position: relative;
+top: 5%;
+
+row-gap: 7%;
+
+
+box-sizing: border-box;
+padding: 2%;
+  font-family: Barlow;
+    }
+    #spacelab{
+      margin-left: 15%;
+    }
+    #formargin{
+      margin-left: 15%;
+    }
+#explor{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  box-sizing: border-box;
+  padding: 2%;
+
+}
+#explorbutton {
+  width: 40%;
+  height: 80%;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  font-family: Barlow;
+  position: relative;
+  top: 5%;
+  right: 2.5%;
+}
+
+
+    
+#iconimg {
+  width: 35px;
+  height: 35px;
+}
+#downdivofmoon{
+  flex-direction: column;
+}
+
+
+#destination {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  display: none;
+}
+
+#updivofmoon {
+  width: 100%;
+  height: 7%;
+
+  display: flex;
+  column-gap: 2%;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.updiv {
+  width: 100%;
+  height: 8%;
+
+  display: flex;
+  align-items: center;
+  column-gap: 1.5%;
+  letter-spacing: 2px;
+}
+
+#downdivofmoon {
+  width: 98%;
+  height:92%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#moonpic {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#moonimg {
+  width:100px;
+  height: 100px;
+  display: none;
+}
+
+
+.destinationimges {
+width:150px;
+height: 150px;
+
+}
+
+#mooninfo {
+  width: 100%;
+  height:70%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.changablediv{
+text-align: center;
+  height: 100%;
+}
+.destinationimges{
+  width: 100px;
+  height:100px ;
+}
+#butnsbar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  column-gap: 3%;
+}
+.infop {
+    display: flex;
+    flex-direction: column;
+      width: 100%;
+  height: 70%;
+}
+
+#infop1{
+  display: none;
+}
+#infop4{
+  display: none;
+}
+
+ .h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: static;
+  letter-spacing: 3px;
+}
+
+
+.pcolor{
+  color: rgba(208, 214, 249, 1);
+  font-size: 16px;
+  text-align: center;
+  font-family: static;
+
+}
+
+#hr2 {
+  width: 90%;
+  height: .1px;
+  border-color: gray;
+
+ 
+}
+
+#date {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.datediv {
+display: flex;
+
+  width: 40%;
+  height: 100%;
+  
+}
+
+#datedivofeuropa1{
+  display: none;
+
+}
+#datedivofeuropa2{
+  display: none;
+}
+
+#crew {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+ justify-content: center;
+ align-items: center;
+  display: none;
+
+}
+#crewupdiv{
+  display: flex;
+  position: relative;
+  left: 26%;
+}
+#downdivofcrew{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#changabledivofcrew{
+  width: 100%;
+  height: 55%;
+    display: flex;
+  flex-direction: column;
+justify-content: space-around;
+  box-sizing: border-box;
+  padding-left: 2%;
+
+}
+.changablediv2{
+width: 80%;
+height: 55%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+box-sizing: border-box;
+
+
+
+}
+
+.crewpic{
+  width: 55%;
+  height: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.crewimges{
+  width: 100%;
+  height: 80%;
+}
+#circlarbtns{
+display: flex;
+
+justify-content: center;
+width: 20%;
+height: 2%;
+position: relative;
+top: 22%;
+left: 39%;
+}
+.circularbtns{
+width: 9.5%;
+height: 100%;
+border-radius: 50%;
+border: none;
+background-color: rgb(202, 198, 198);
+
+
+}
+#technology{  
+  display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+display: none;
+text-align: center;
+
+}
+#technologyupdiv{
+ display: none;
+}
+#downdivoftechnology{
+width: 90%;
+height: 80%;
+display: flex;
+flex-direction: column-reverse;
+
+
+
+
+}
+#infodivoftechnology{
+width: 100%;
+height: 100%;
+  display: flex;
+flex-direction: column;
+
+
+
+
+}
+#btnsoftechnology{
+width: 100%;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+column-gap: 5%;
+
+}
+.btnsoftechnology{
+  width: 40px;
+  height: 55PX;
+  justify-content: space-around;
+}
+
+
+.changabledivoftechnology{
+width: 100%;
+height: 100%;
+
+
+}
+
+
+
+.technologyimges{
+width:90%;
+height: 100%;
+display: flex;
+justify-content:center;
+align-items: center;
+
+
+
+
+}
+#technologypic{
+width: 100%;
+height: 45%;
+display: flex;
+justify-content:center;
+align-items: center;
+
+position: relative;
+right: 10%;
+
+}
+
+
+
+}
+@media only screen and (max-width: 1024px){
+  body{
+    background-image: url(home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #mainbtns{
+  
+    align-items: center;
+justify-content: end;
+
+row-gap: 2%;
+
+  } 
+  .mainbtns{
+   flex-direction: column;
+  }
+  #icondiv > hr {
+    display: none;
+  }
+#burgericon{
+  display: block;
+ position: relative;
+ right: 5px;
+  
+}
+#navdiv {
+  height: 10%;
+}
+
+#icondiv{
+  justify-content: space-between;
+
+}
+#downdiv{
+  flex-direction:column;
+  justify-content: space-around;
+align-items: center;
+ width: 80%;
+  height: 80%;
+
+  position: relative;
+  left: 1%;
+ 
+}
+
+#homelabs {
+  width: 100%;
+height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+text-align: left;
+position: relative;
+top: 5%;
+
+row-gap: 7%;
+
+
+box-sizing: border-box;
+padding: 2%;
+  font-family: Barlow;
+    }
+    #spacelab{
+      margin-left: 15%;
+    }
+    #formargin{
+      margin-left: 15%;
+    }
+#explor{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  box-sizing: border-box;
+  padding: 2%;
+
+}
+#explorbutton {
+  width: 40%;
+  height: 80%;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  font-family: Barlow;
+  position: relative;
+  top: 5%;
+  right: 2.5%;
+}
+
+
+    
+#iconimg {
+  width: 35px;
+  height: 35px;
+}
+#downdivofmoon{
+  flex-direction: column;
+}
+
+
+#destination {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  display: none;
+}
+
+#updivofmoon {
+  width: 100%;
+  height: 7%;
+
+  display: flex;
+  column-gap: 2%;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.updiv {
+  width: 100%;
+  height: 8%;
+
+  display: flex;
+  align-items: center;
+  column-gap: 1.5%;
+  letter-spacing: 2px;
+}
+
+#downdivofmoon {
+  width: 98%;
+  height:92%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#moonpic {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#moonimg {
+  width:100px;
+  height: 100px;
+  display: none;
+}
+
+
+.destinationimges {
+width:150px;
+height: 150px;
+
+}
+
+#mooninfo {
+  width: 100%;
+  height:70%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.changablediv{
+text-align: center;
+  height: 100%;
+}
+.destinationimges{
+  width: 100px;
+  height:100px ;
+}
+#butnsbar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  column-gap: 3%;
+}
+.infop {
+    display: flex;
+    flex-direction: column;
+      width: 100%;
+  height: 70%;
+}
+
+#infop1{
+  display: none;
+}
+#infop4{
+  display: none;
+}
+
+ .h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: static;
+  letter-spacing: 3px;
+}
+
+
+.pcolor{
+  color: rgba(208, 214, 249, 1);
+  font-size: 16px;
+  text-align: center;
+  font-family: static;
+
+}
+
+#hr2 {
+  width: 90%;
+  height: .1px;
+  border-color: gray;
+
+ 
+}
+
+#date {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.datediv {
+display: flex;
+
+  width: 40%;
+  height: 100%;
+  
+}
+
+#datedivofeuropa1{
+  display: none;
+
+}
+#datedivofeuropa2{
+  display: none;
+}
+
+#crew {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+ justify-content: center;
+ align-items: center;
+  display: none;
+
+}
+#crewupdiv{
+  display: flex;
+  position: relative;
+  left: 26%;
+}
+#downdivofcrew{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#changabledivofcrew{
+  width: 100%;
+  height: 55%;
+    display: flex;
+  flex-direction: column;
+justify-content: space-around;
+  box-sizing: border-box;
+  padding-left: 2%;
+
+}
+.changablediv2{
+width: 80%;
+height: 55%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+box-sizing: border-box;
+
+
+
+}
+
+.crewpic{
+  width: 55%;
+  height: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.crewimges{
+  width: 100%;
+  height: 80%;
+}
+#circlarbtns{
+display: flex;
+
+justify-content: center;
+width: 20%;
+height: 2%;
+position: relative;
+top: 22%;
+left: 39%;
+}
+.circularbtns{
+width: 9.5%;
+height: 100%;
+border-radius: 50%;
+border: none;
+background-color: rgb(202, 198, 198);
+
+
+}
+#technology{  
+  display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+display: none;
+text-align: center;
+
+}
+#technologyupdiv{
+ display: none;
+}
+#downdivoftechnology{
+width: 90%;
+height: 80%;
+display: flex;
+flex-direction: column-reverse;
+
+
+
+
+}
+#infodivoftechnology{
+width: 100%;
+height: 100%;
+  display: flex;
+flex-direction: column;
+
+
+
+
+}
+#btnsoftechnology{
+width: 100%;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+column-gap: 5%;
+
+}
+.btnsoftechnology{
+  width: 40px;
+  height: 55PX;
+  justify-content: space-around;
+}
+
+
+.changabledivoftechnology{
+width: 100%;
+height: 100%;
+
+
+}
+
+
+
+.technologyimges{
+width:90%;
+height: 100%;
+display: flex;
+justify-content:center;
+align-items: center;
+
+
+
+
+}
+#technologypic{
+width: 100%;
+height: 45%;
+display: flex;
+justify-content:center;
+align-items: center;
+
+position: relative;
+right: 10%;
+
+}
+
+
+
+}
+
+
